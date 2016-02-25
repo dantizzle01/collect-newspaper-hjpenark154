@@ -1,0 +1,27 @@
+	// Program Start
+	
+	public void run(){
+		getNewspaper();
+		turnAround();
+		gotoStart();
+	}
+	
+	private void getNewspaper(){
+			move();
+			move();
+			turnRight();
+			move();
+			turnLeft();
+			move();
+			pickBeeper();
+	}
+	
+	private void gotoStart(){
+			move();
+			turnRight();
+			move();
+			turnLeft();
+			move();
+			move();
+	}
+}
